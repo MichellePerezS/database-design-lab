@@ -1,0 +1,59 @@
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar configuraciones específicas de IDE
+.idea/
+*.iml
+*.log
+.vscode/
+
+# Ignorar archivos de compilación de Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignorar directorios de compilación
+/bin/
+/build/
+/target/
+
+# Ignorar dependencias de Maven/Gradle
+.mvn/
+.gradle/
+*.pom
+*.lock
+
+# Ignorar configuraciones de entorno
+.env
+.env.local
+
+# Ignorar archivos temporales de editores de texto
+*.swp
+*.swo
+*.tmp
+
+# Ignorar Notebooks temporales o de checkpoints
+**/.ipynb_checkpoints
+
+# Ignorar configuraciones de Docker (si aplican)
+*.pid
+docker-compose.override.yml
+
+# Ignorar archivos SQL temporales
+*.sql~
+*.sql.bak
+
+# Ignorar archivos de video muy pesados (puedes manejar esto según tamaño)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Ignorar archivos de datos masivos o resultados generados
+*.csv
+*.tsv
+*.json
+*.xml
